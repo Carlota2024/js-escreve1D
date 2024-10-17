@@ -12,7 +12,7 @@ function setup() {
   function draw() {
   background(220);
   let idade = campoIdade.value();
-  let recomendacao = geraRecomendacao(idade);
+  let recomendacao = gerarecomendacao(idade);
 text(recomendacao, width/2, height/2);
 }
 
